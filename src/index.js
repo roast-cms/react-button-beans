@@ -1,15 +1,8 @@
 // tools
 import React from "react"
-import Loadable from "react-loadable"
 
 // styles
 import styled, { css } from "styled-components"
-
-const Loader = Loadable({
-  loader: () => import("./Loader"),
-  loading: () => null,
-  delay: 100
-})
 
 // NOTE: Button is much heavier than ButtonLink
 // since it includes a loader SVG animation.
@@ -69,22 +62,28 @@ export const ButtonStyles = css`
 export const LinkButton = styled(
   ({ red, black, responsiveMobileOnly, ...props }) => {
     const Link = props.linkComponent
-    return <Link {...props} />
+    const { linkComponent, ...validProps } = props
+    return <Link {...validProps} />
   }
 )`
   ${ButtonStyles};
 `
 // export non-a/link version of the button
-export const Button = styled(({ red, black, responsiveMobileOnly, ...props }) =>
-  <button
-    className={props.className}
-    style={props.style}
-    onClick={props.onClick}
-    disabled={props.loading}
-  >
-    <Loader style={props.loading ? null : { width: "0" }} />
-    {props.children}
-  </button>
+export const Button = styled(
+  ({ red, black, responsiveMobileOnly, ...props }) => {
+    const Loader = props.loaderComponent || null
+    return (
+      <button
+        className={props.className}
+        style={props.style}
+        onClick={props.onClick}
+        disabled={props.loading}
+      >
+        {Loader && <Loader style={props.loading ? null : { width: "0" }} />}
+        {props.children}
+      </button>
+    )
+  }
 )`
   box-sizing: content-box;
   background: inherit;
@@ -102,6 +101,7 @@ export const Button = styled(({ red, black, responsiveMobileOnly, ...props }) =>
   ${ButtonStyles};
 `
 
+/**************************** TINY BUTTON STYLES ******************************/
 export const TinyButtonStyles = styled(
   ({ responsiveMobileOnly, followComposerCursor, ...props }) =>
     <LinkButton {...props} />

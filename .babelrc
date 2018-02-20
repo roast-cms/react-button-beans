@@ -4,7 +4,6 @@
     "react"
   ],
   "plugins": [
-    "babel-plugin-transform-object-rest-spread",
-    "syntax-dynamic-import"
+    "babel-plugin-transform-object-rest-spread"
   ]
 }

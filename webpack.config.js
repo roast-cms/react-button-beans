@@ -10,7 +10,7 @@ module.exports = {
         loader: "babel-loader",
         query: {
           presets: ["react"],
-          plugins: ["transform-object-rest-spread", "syntax-dynamic-import"]
+          plugins: ["transform-object-rest-spread"]
         },
         test: /\.js$/,
         exclude: /node_modules/

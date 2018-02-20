@@ -1,6 +1,6 @@
 {
   "name": "@roast-cms/react-link-filter",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Filter and process your <NavLink /> components for better user experience and SEO.",
   "main": "dist/index.js",
   "repository": "https://github.com/roast-cms/react-link-filter.git",
@@ -24,8 +24,7 @@
   "peerDependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "styled-components": "3.0.2",
-    "@roast-cms/react-sugar-styled": "*"
+    "styled-components": "3.0.2"
   },
   "scripts": {
     "start": "webpack-dev-server",

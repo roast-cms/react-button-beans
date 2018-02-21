@@ -5,6 +5,8 @@
 ### What is this?
 This is button component primitives built for use within `roast-cms` React components.
 
+![Demo GIF](demo.gif | width=250)
+
 ### What you will need.
 This package requires `styled-components`.
 

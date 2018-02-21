@@ -39,7 +39,13 @@ const Main = props => {
     >
       Tiny Link Btn
     </TinyButton>,
-    <ButtonStrip key="ButtonStrip">
+    <ButtonStrip
+      key="ButtonStrip"
+      style={{
+        width: "18em",
+        margin: "0 auto"
+      }}
+    >
       <div>
         <Item left red linkComponent="a">
           Left

@@ -1,6 +1,6 @@
 {
   "name": "@roast-cms/react-button-beans",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "styled-components primitives for creating beautiful, responsive buttons in React.js.",
   "main": "dist/index.js",
   "repository": "https://github.com/roast-cms/react-button-beans.git",
@@ -8,18 +8,18 @@
   "license": "MPL-2.0",
   "private": false,
   "devDependencies": {
+    "@roast-cms/react-sugar-styled": "*",
     "babel-cli": "^6.0.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
-    "webpack": "^3.11.0",
-    "webpack-dev-server": "^2.11.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "styled-components": "3.0.2",
-    "@roast-cms/react-sugar-styled": "*"
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
   },
   "peerDependencies": {
     "react": "^16.0.0",

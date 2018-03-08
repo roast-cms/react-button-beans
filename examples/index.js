@@ -13,14 +13,14 @@ import Loader from "../src/Loader"
 const Main = props => {
   return [
     <Button key="PlainButton">Plain Button</Button>,
-    <Button black key="BlackButton">
-      Black Button
+    <Button inverse key="InverseButton">
+      Inverse Button
     </Button>,
-    <Button red key="RedButton">
-      Red Button
+    <Button branded key="BrandedButton">
+      Branded Button
     </Button>,
-    <Button red loading loaderComponent={Loader} key="RedLoadingButton">
-      Red Loading Button
+    <Button branded loading loaderComponent={Loader} key="BrandedLoadingButton">
+      Branded Loading Button
     </Button>,
     <Button loading loaderComponent={Loader} key="PlainLoadingButton">
       Plain Loading Button
@@ -33,18 +33,24 @@ const Main = props => {
       Plain Link Button
     </LinkButton>,
     <TinyButton
-      key="TinyRedButton"
+      key="TinyBrandedButton"
       linkComponent="a"
       href="https://www.analog.cafe"
     >
       Tiny Link Btn
     </TinyButton>,
-    <ButtonStrip key="ButtonStrip">
+    <ButtonStrip
+      key="ButtonStrip"
+      style={{
+        width: "18em",
+        margin: "0 auto"
+      }}
+    >
       <div>
-        <Item left red linkComponent="a">
+        <Item left branded linkComponent="a">
           Left
         </Item>
-        <Item black linkComponent="a">
+        <Item inverse linkComponent="a">
           Middle
         </Item>
         <Item script linkComponent="a" style={{ minWidth: "7em" }}>

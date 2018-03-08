@@ -5,6 +5,8 @@
 ### What is this?
 This is button component primitives built for use within `roast-cms` React components.
 
+<img src="./demo.gif" data-canonical-src="./demo.gif" width="250" height="auto" alt="Demo" />
+
 ### What you will need.
 This package requires `styled-components`.
 

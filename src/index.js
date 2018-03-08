@@ -18,15 +18,15 @@ export const ButtonStyles = css`
   display: block;
 
   background: ${props => props.theme.color.background};
-  background: ${props => (props.black ? props.theme.color.foreground : null)}
-    ${props => (props.red ? props.theme.color.brand : null)};
+  background: ${props => (props.inverse ? props.theme.color.foreground : null)}
+    ${props => (props.branded ? props.theme.color.brand : null)};
   color: ${props => props.theme.color.foreground} !important;
-  color: ${props => (props.black ? props.theme.color.background : null)}
-    ${props => (props.red ? props.theme.color.background : null)} !important;
+  color: ${props => (props.inverse ? props.theme.color.background : null)}
+    ${props => (props.branded ? props.theme.color.background : null)} !important;
 
   ${"" /* for non-coloured buttons the animation SVG should have a foreground-colored fill */} & svg > path {
     stroke: ${props =>
-      !props.black && !props.red ? props.theme.color.foreground : null};
+      !props.inverse && !props.branded ? props.theme.color.foreground : null};
   }
 
   border-radius: ${props => props.theme.effects.borderRadius.small}em;
@@ -58,9 +58,9 @@ export const ButtonStyles = css`
   `};
 `
 
-// below line filter out prop "red" that isn't recognized by Link component
+// below line filter out prop "branded" that isn't recognized by Link component
 export const LinkButton = styled(
-  ({ red, black, responsiveMobileOnly, ...props }) => {
+  ({ branded, inverse, responsiveMobileOnly, ...props }) => {
     const Link = props.linkComponent
     const { linkComponent, ...validProps } = props
     return <Link {...validProps} />
@@ -70,7 +70,7 @@ export const LinkButton = styled(
 `
 // export non-a/link version of the button
 export const Button = styled(
-  ({ red, black, responsiveMobileOnly, ...props }) => {
+  ({ branded, inverse, responsiveMobileOnly, ...props }) => {
     const Loader = props.loaderComponent || null
     return (
       <button

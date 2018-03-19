@@ -50,7 +50,7 @@ TinyButton is a differently-styled `<LinkButton />` component, nothing else is d
 #### `<ButtonStrip />`
 This is a convenience wrapping component that you may use to create a strip of tiny buttons. This component requires that you have all your buttons as `<Item />` components, wrapped in a `<div />`.
 #### `<Item />`
-These components are styled `<TinyButton />`/`<LinkButton />` components which also take `left` and `right` props.
+These components are styled `<TinyButton />`/`<LinkButton />` components which also take `left` and `right` props. It also accepts `script` prop which, if true, will change the font to the `text` from `title` dictionary definition.
 #### `<Loader />`
 This is an animated SVG component that you may use with your `<Button />` components.
 

@@ -1,12 +1,13 @@
+//
 // tools
 import React from "react"
-
+//
 // styles
 import styled, { css } from "styled-components"
-
+//
 // NOTE: Button is much heavier than ButtonLink
 // since it includes a loader SVG animation.
-
+//
 /**************************** MAIN BUTTON STYLES ******************************/
 export const ButtonStyles = css`
   max-width: ${props => props.theme.size.breakpoint.stops.min}px;
@@ -17,16 +18,18 @@ export const ButtonStyles = css`
   text-align: center;
   display: block;
 
-  background: ${props => props.theme.color.background};
-  background: ${props => (props.inverse ? props.theme.color.foreground : null)}
-    ${props => (props.branded ? props.theme.color.brand : null)};
-  color: ${props => props.theme.color.foreground} !important;
-  color: ${props => (props.inverse ? props.theme.color.background : null)}
-    ${props => (props.branded ? props.theme.color.background : null)} !important;
+  background: ${props => props.theme.color.background()};
+  background: ${props =>
+    props.inverse ? props.theme.color.foreground() : null}
+    ${props => (props.branded ? props.theme.color.brand() : null)};
+  color: ${props => props.theme.color.foreground()} !important;
+  color: ${props => (props.inverse ? props.theme.color.background() : null)}
+    ${props =>
+      props.branded ? props.theme.color.background() : null} !important;
 
   ${"" /* for non-coloured buttons the animation SVG should have a foreground-colored fill */} & svg > path {
     stroke: ${props =>
-      !props.inverse && !props.branded ? props.theme.color.foreground : null};
+      !props.inverse && !props.branded ? props.theme.color.foreground() : null};
   }
 
   border-radius: ${props => props.theme.effects.borderRadius.small}em;
@@ -37,15 +40,14 @@ export const ButtonStyles = css`
   user-select: none;
 
   box-shadow: 0 1px 1px
-      ${props =>
-        props.theme.color.alpha.foreground(props.theme.opacity.least * 2)},
+      ${props => props.theme.color.foreground(props.theme.opacity.least * 2)},
     0 0 0 1px
-      ${props => props.theme.color.alpha.foreground(props.theme.opacity.least)};
+      ${props => props.theme.color.foreground(props.theme.opacity.least)};
 
   &:active {
-    background: ${props => props.theme.color.foreground} !important;
-    box-shadow: 0 0 ${props => props.theme.color.foreground} inset;
-    color: ${props => props.theme.color.background} !important;
+    background: ${props => props.theme.color.foreground()} !important;
+    box-shadow: 0 0 ${props => props.theme.color.foreground()} inset;
+    color: ${props => props.theme.color.background()} !important;
   }
 
   ${props => props.theme.size.breakpoint.max.xs`
@@ -53,11 +55,11 @@ export const ButtonStyles = css`
     max-width: 100vw;
     border-radius: 0;
     section & {
-      margin-left: -${props => props.theme.size.block.column.safety}em;
+      margin-left: -${props => props.theme.size.block.padding}em;
     }
   `};
 `
-
+//
 // below line filter out prop "branded" that isn't recognized by Link component
 export const LinkButton = styled(
   ({ branded, inverse, responsiveMobileOnly, ...props }) => {
@@ -68,6 +70,7 @@ export const LinkButton = styled(
 )`
   ${ButtonStyles};
 `
+//
 // export non-a/link version of the button
 export const Button = styled(
   ({ branded, inverse, responsiveMobileOnly, ...props }) => {
@@ -100,7 +103,7 @@ export const Button = styled(
   }
   ${ButtonStyles};
 `
-
+//
 /**************************** TINY BUTTON STYLES ******************************/
 export const TinyButtonStyles = styled(
   ({ responsiveMobileOnly, followComposerCursor, ...props }) =>
@@ -117,7 +120,7 @@ export const TinyButtonStyles = styled(
   margin-top: 2px;
   position: absolute;
   z-index: ${props.theme.layer.up - 1};
-  right: -${props.theme.size.block.column.safety}em;
+  right: -${props.theme.size.block.padding}em;
   ${props.theme.size.breakpoint.max.m`
 		right: 0;
 	`} ${props.theme.size.breakpoint.max.s`
@@ -132,9 +135,8 @@ export const TinyButton = props => {
     </TinyButtonStyles>
   )
 }
-
+//
 /**************************** BUTTON STRIP STYLES *****************************/
-
 export const ButtonStrip = styled.div`
   & > div {
     display: flex;
@@ -142,10 +144,11 @@ export const ButtonStrip = styled.div`
   }
   width: 10em;
 `
-
+//
 const tinyButtonBorderRadious = css`
   ${props => props.theme.effects.borderRadius.small};
 `
+//
 export const Item = styled(({ left, right, script, ...props }) =>
   <TinyButton {...props} />
 )`
@@ -163,7 +166,10 @@ export const Item = styled(({ left, right, script, ...props }) =>
 
   ${props =>
     props.script
-      ? `font-family: ${props.theme.typography.font
-          .serif} !important;font-weight: 400 !important;`
+      ? `font-family: ${props.theme.typography.text
+          .font} !important;font-weight: 400 !important;`
       : null};
 `
+//
+// convenience exports
+export { Loader } from "./Loader"

@@ -12,7 +12,7 @@ const LoaderContainer = styled.div`
 `
 
 // return
-export default props => {
+export const Loader = props => {
   return (
     <LoaderContainer {...props}>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">

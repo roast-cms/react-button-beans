@@ -2,6 +2,8 @@
 ![NPM version](https://badge.fury.io/js/%40roast-cms%2Freact-button-beans.svg)
 > 🍇 Responsive React button primitives built with Styled Components and `react-sugar-styled` theming dictionary.
 
+![demo](/graphics/demo.gif?raw=true)
+
 - Responsive with **tons of customization** and switchable "modes".
 - **Links and button elements**; available in two sizes with wrap elements.
 - Built for **Styled Components** and `react-sugar-styled` CSS styling tools.

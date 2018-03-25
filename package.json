@@ -1,6 +1,6 @@
 {
   "name": "@roast-cms/react-button-beans",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "Responsive React button primitives built with Styled Components and react-sugar-styled theming dictionary.",
   "main": "dist/index.js",
   "repository": "https://github.com/roast-cms/react-button-beans.git",
@@ -9,7 +9,7 @@
   "private": false,
   "devDependencies": {
     "@roast-cms/react-link-filter": "^0.1.2",
-    "@roast-cms/react-sugar-styled": "^1.0.0",
+    "@roast-cms/react-sugar-styled": "^1.0.3",
     "babel-cli": "^6.0.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
@@ -23,7 +23,7 @@
     "react-dom": "^16.0.0",
     "react-router-dom": "^4.2.2",
     "style-loader": "^0.20.3",
-    "styled-components": "3.0.2",
+    "styled-components": "^3.2.3",
     "typeface-lobster-two": "^0.0.54",
     "typeface-yanone-kaffeesatz": "^0.0.54",
     "url-loader": "^1.0.1",
@@ -34,7 +34,7 @@
     "@roast-cms/react-sugar-styled": "^1.0.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "styled-components": "3.0.2"
+    "styled-components": "^3.2.3"
   },
   "scripts": {
     "start": "webpack-dev-server",

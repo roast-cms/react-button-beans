@@ -170,6 +170,3 @@ export const Item = styled(({ left, right, script, ...props }) =>
           .font} !important;font-weight: 400 !important;`
       : null};
 `
-//
-// convenience exports
-export { Loader } from "./Loader"

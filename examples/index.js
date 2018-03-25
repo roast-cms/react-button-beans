@@ -13,7 +13,11 @@ import "typeface-lobster-two"
 //
 // button components
 import Link from "@roast-cms/react-link-filter"
-import { Button, TinyButton, ButtonStrip, LinkButton, Item, Loader } from "../src/index"
+import { Button, TinyButton, ButtonStrip, LinkButton, Item } from "../src/index"
+//
+// this component, when sourcing from an NPM package will have to be imported
+// from: `@roast-cms/react-button-beans/dist/src/Loader`
+import { Loader } from "../src/Loader"
 //
 // rendered component
 const LinkComponent = props => <Link domain="google.com" {...props}>{props.children}</Link>

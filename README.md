@@ -1,5 +1,5 @@
 # button-beans
-![NPM version](https://badge.fury.io/js/%40roast-cms%2Freact-button-beans.svg)
+![NPM version](https://badge.fury.io/js/%40roast-cms%2Freact-button-beans.svg) [![Build Status](https://travis-ci.com/roast-cms/react-button-beans.svg?branch=develop)](https://travis-ci.com/roast-cms/react-button-beans)
 > 🍇 Responsive React button primitives built with Styled Components and `react-sugar-styled` theming dictionary.
 
 ![demo](/graphics/demo.gif?raw=true)

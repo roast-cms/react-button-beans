@@ -1,0 +1,3173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render \`branded\` Button without crashing, matches snapshot 1`] = `
+.c0 {
+  box-sizing: content-box;
+  background: inherit;
+  border-width: 0;
+  color: inherit;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: inherit;
+  width: 100%;
+  outline: transparent;
+  max-width: 320px;
+  color: rgba(82,82,82,1);
+  font-family: 'Yanone Kaffeesatz',sans-serif;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+  line-height: 1.15em;
+  font-weight: 400;
+  margin: 0;
+  margin: 0 auto;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  background: rgba(255,255,255,1);
+  background: rgba(189,67,54,1);
+  color: rgba(82,82,82,1) !important;
+  color: rgba(255,255,255,1) !important;
+  border-radius: 0.375em;
+  padding: 0.6em 0;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-shadow: 0 1px 1px rgba(82,82,82,0.25), 0 0 0 1px rgba(82,82,82,0.125);
+}
+
+.c0:-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.c0:active {
+  background: rgba(82,82,82,1) !important;
+  box-shadow: 0 0 rgba(82,82,82,1) inset;
+  color: rgba(255,255,255,1) !important;
+}
+
+@media (min-width:32.5625em) {
+  .c0 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:32.5em) {
+  .c0 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width:20em) {
+  .c0 {
+    font-size: 17px;
+  }
+}
+
+@media (min-width:100.0625em) {
+  .c0 {
+    font-size: 23px;
+  }
+}
+
+@media (max-width:20em) {
+  .c0 {
+    width: 100vw;
+    max-width: 100vw;
+    border-radius: 0;
+  }
+
+  section .c0 {
+    margin-left: -1.5em;
+  }
+}
+
+<Component
+  branded={true}
+  className="c0"
+  theme={
+    Object {
+      "color": Object {
+        "background": [Function],
+        "brand": [Function],
+        "foreground": [Function],
+        "highlight": [Function],
+      },
+      "effects": Object {
+        "borderRadius": Object {
+          "med": 0.75,
+          "small": [Function],
+        },
+      },
+      "layer": Object {
+        "card": 30,
+        "nav": 20,
+        "overlay": 40,
+        "tuck": -1,
+        "up": 10,
+      },
+      "opacity": Object {
+        "half": 0.5,
+        "least": 0.125,
+        "most": 0.85,
+      },
+      "size": Object {
+        "block": Object {
+          "border": 4,
+          "column": Object {
+            "l": 900,
+            "m": 700,
+          },
+          "padding": 1.5,
+          "spacing": 0.75,
+        },
+        "breakpoint": Object {
+          "exact": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "max": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "min": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "stops": Object {
+            "max": 1600,
+            "min": 320,
+          },
+        },
+        "font": Object {
+          "auto": Array [
+            "
+        ",
+            "
+		@media (min-width: ",
+            "32.5625",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "32.5",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "20",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (min-width: ",
+            "100.0625",
+            "em) {
+			",
+            "font-size:	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            ";
+      ",
+          ],
+          "l": 23,
+          "m": 20,
+          "make": Object {
+            "larger": 2,
+            "normal": 1,
+            "smaller": 0.85,
+            "tiny": 0.5,
+          },
+          "s": 18,
+          "xs": 17,
+        },
+      },
+      "typography": Object {
+        "text": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Lobster Two', serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+        ",
+          ],
+          "font": "'Lobster Two', serif",
+          "lineHeight": 1.75,
+        },
+        "title": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Yanone Kaffeesatz', sans-serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+          font-weight: ",
+            "400",
+            ";
+          margin: 0;
+        ",
+          ],
+          "font": "'Yanone Kaffeesatz', sans-serif",
+          "lineHeight": 1.15,
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`Render \`branded\` LinkButton without crashing, matches snapshot 1`] = `
+.c0 {
+  max-width: 320px;
+  color: rgba(82,82,82,1);
+  font-family: 'Yanone Kaffeesatz',sans-serif;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+  line-height: 1.15em;
+  font-weight: 400;
+  margin: 0;
+  margin: 0 auto;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  background: rgba(255,255,255,1);
+  background: rgba(189,67,54,1);
+  color: rgba(82,82,82,1) !important;
+  color: rgba(255,255,255,1) !important;
+  border-radius: 0.375em;
+  padding: 0.6em 0;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-shadow: 0 1px 1px rgba(82,82,82,0.25), 0 0 0 1px rgba(82,82,82,0.125);
+}
+
+.c0:active {
+  background: rgba(82,82,82,1) !important;
+  box-shadow: 0 0 rgba(82,82,82,1) inset;
+  color: rgba(255,255,255,1) !important;
+}
+
+@media (min-width:32.5625em) {
+  .c0 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:32.5em) {
+  .c0 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width:20em) {
+  .c0 {
+    font-size: 17px;
+  }
+}
+
+@media (min-width:100.0625em) {
+  .c0 {
+    font-size: 23px;
+  }
+}
+
+@media (max-width:20em) {
+  .c0 {
+    width: 100vw;
+    max-width: 100vw;
+    border-radius: 0;
+  }
+
+  section .c0 {
+    margin-left: -1.5em;
+  }
+}
+
+<Component
+  branded={true}
+  className="c0"
+  theme={
+    Object {
+      "color": Object {
+        "background": [Function],
+        "brand": [Function],
+        "foreground": [Function],
+        "highlight": [Function],
+      },
+      "effects": Object {
+        "borderRadius": Object {
+          "med": 0.75,
+          "small": [Function],
+        },
+      },
+      "layer": Object {
+        "card": 30,
+        "nav": 20,
+        "overlay": 40,
+        "tuck": -1,
+        "up": 10,
+      },
+      "opacity": Object {
+        "half": 0.5,
+        "least": 0.125,
+        "most": 0.85,
+      },
+      "size": Object {
+        "block": Object {
+          "border": 4,
+          "column": Object {
+            "l": 900,
+            "m": 700,
+          },
+          "padding": 1.5,
+          "spacing": 0.75,
+        },
+        "breakpoint": Object {
+          "exact": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "max": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "min": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "stops": Object {
+            "max": 1600,
+            "min": 320,
+          },
+        },
+        "font": Object {
+          "auto": Array [
+            "
+        ",
+            "
+		@media (min-width: ",
+            "32.5625",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "32.5",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "20",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (min-width: ",
+            "100.0625",
+            "em) {
+			",
+            "font-size:	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            ";
+      ",
+          ],
+          "l": 23,
+          "m": 20,
+          "make": Object {
+            "larger": 2,
+            "normal": 1,
+            "smaller": 0.85,
+            "tiny": 0.5,
+          },
+          "s": 18,
+          "xs": 17,
+        },
+      },
+      "typography": Object {
+        "text": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Lobster Two', serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+        ",
+          ],
+          "font": "'Lobster Two', serif",
+          "lineHeight": 1.75,
+        },
+        "title": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Yanone Kaffeesatz', sans-serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+          font-weight: ",
+            "400",
+            ";
+          margin: 0;
+        ",
+          ],
+          "font": "'Yanone Kaffeesatz', sans-serif",
+          "lineHeight": 1.15,
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`Render \`inverse\` Button without crashing, matches snapshot 1`] = `
+.c0 {
+  box-sizing: content-box;
+  background: inherit;
+  border-width: 0;
+  color: inherit;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: inherit;
+  width: 100%;
+  outline: transparent;
+  max-width: 320px;
+  color: rgba(82,82,82,1);
+  font-family: 'Yanone Kaffeesatz',sans-serif;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+  line-height: 1.15em;
+  font-weight: 400;
+  margin: 0;
+  margin: 0 auto;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  background: rgba(255,255,255,1);
+  background: rgba(82,82,82,1);
+  color: rgba(82,82,82,1) !important;
+  color: rgba(255,255,255,1) !important;
+  border-radius: 0.375em;
+  padding: 0.6em 0;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-shadow: 0 1px 1px rgba(82,82,82,0.25), 0 0 0 1px rgba(82,82,82,0.125);
+}
+
+.c0:-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.c0:active {
+  background: rgba(82,82,82,1) !important;
+  box-shadow: 0 0 rgba(82,82,82,1) inset;
+  color: rgba(255,255,255,1) !important;
+}
+
+@media (min-width:32.5625em) {
+  .c0 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:32.5em) {
+  .c0 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width:20em) {
+  .c0 {
+    font-size: 17px;
+  }
+}
+
+@media (min-width:100.0625em) {
+  .c0 {
+    font-size: 23px;
+  }
+}
+
+@media (max-width:20em) {
+  .c0 {
+    width: 100vw;
+    max-width: 100vw;
+    border-radius: 0;
+  }
+
+  section .c0 {
+    margin-left: -1.5em;
+  }
+}
+
+<Component
+  className="c0"
+  inverse={true}
+  theme={
+    Object {
+      "color": Object {
+        "background": [Function],
+        "brand": [Function],
+        "foreground": [Function],
+        "highlight": [Function],
+      },
+      "effects": Object {
+        "borderRadius": Object {
+          "med": 0.75,
+          "small": [Function],
+        },
+      },
+      "layer": Object {
+        "card": 30,
+        "nav": 20,
+        "overlay": 40,
+        "tuck": -1,
+        "up": 10,
+      },
+      "opacity": Object {
+        "half": 0.5,
+        "least": 0.125,
+        "most": 0.85,
+      },
+      "size": Object {
+        "block": Object {
+          "border": 4,
+          "column": Object {
+            "l": 900,
+            "m": 700,
+          },
+          "padding": 1.5,
+          "spacing": 0.75,
+        },
+        "breakpoint": Object {
+          "exact": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "max": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "min": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "stops": Object {
+            "max": 1600,
+            "min": 320,
+          },
+        },
+        "font": Object {
+          "auto": Array [
+            "
+        ",
+            "
+		@media (min-width: ",
+            "32.5625",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "32.5",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "20",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (min-width: ",
+            "100.0625",
+            "em) {
+			",
+            "font-size:	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            ";
+      ",
+          ],
+          "l": 23,
+          "m": 20,
+          "make": Object {
+            "larger": 2,
+            "normal": 1,
+            "smaller": 0.85,
+            "tiny": 0.5,
+          },
+          "s": 18,
+          "xs": 17,
+        },
+      },
+      "typography": Object {
+        "text": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Lobster Two', serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+        ",
+          ],
+          "font": "'Lobster Two', serif",
+          "lineHeight": 1.75,
+        },
+        "title": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Yanone Kaffeesatz', sans-serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+          font-weight: ",
+            "400",
+            ";
+          margin: 0;
+        ",
+          ],
+          "font": "'Yanone Kaffeesatz', sans-serif",
+          "lineHeight": 1.15,
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`Render \`inverse\` LinkButton without crashing, matches snapshot 1`] = `
+.c0 {
+  max-width: 320px;
+  color: rgba(82,82,82,1);
+  font-family: 'Yanone Kaffeesatz',sans-serif;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+  line-height: 1.15em;
+  font-weight: 400;
+  margin: 0;
+  margin: 0 auto;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  background: rgba(255,255,255,1);
+  background: rgba(82,82,82,1);
+  color: rgba(82,82,82,1) !important;
+  color: rgba(255,255,255,1) !important;
+  border-radius: 0.375em;
+  padding: 0.6em 0;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-shadow: 0 1px 1px rgba(82,82,82,0.25), 0 0 0 1px rgba(82,82,82,0.125);
+}
+
+.c0:active {
+  background: rgba(82,82,82,1) !important;
+  box-shadow: 0 0 rgba(82,82,82,1) inset;
+  color: rgba(255,255,255,1) !important;
+}
+
+@media (min-width:32.5625em) {
+  .c0 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:32.5em) {
+  .c0 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width:20em) {
+  .c0 {
+    font-size: 17px;
+  }
+}
+
+@media (min-width:100.0625em) {
+  .c0 {
+    font-size: 23px;
+  }
+}
+
+@media (max-width:20em) {
+  .c0 {
+    width: 100vw;
+    max-width: 100vw;
+    border-radius: 0;
+  }
+
+  section .c0 {
+    margin-left: -1.5em;
+  }
+}
+
+<Component
+  className="c0"
+  inverse={true}
+  theme={
+    Object {
+      "color": Object {
+        "background": [Function],
+        "brand": [Function],
+        "foreground": [Function],
+        "highlight": [Function],
+      },
+      "effects": Object {
+        "borderRadius": Object {
+          "med": 0.75,
+          "small": [Function],
+        },
+      },
+      "layer": Object {
+        "card": 30,
+        "nav": 20,
+        "overlay": 40,
+        "tuck": -1,
+        "up": 10,
+      },
+      "opacity": Object {
+        "half": 0.5,
+        "least": 0.125,
+        "most": 0.85,
+      },
+      "size": Object {
+        "block": Object {
+          "border": 4,
+          "column": Object {
+            "l": 900,
+            "m": 700,
+          },
+          "padding": 1.5,
+          "spacing": 0.75,
+        },
+        "breakpoint": Object {
+          "exact": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "max": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "min": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "stops": Object {
+            "max": 1600,
+            "min": 320,
+          },
+        },
+        "font": Object {
+          "auto": Array [
+            "
+        ",
+            "
+		@media (min-width: ",
+            "32.5625",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "32.5",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "20",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (min-width: ",
+            "100.0625",
+            "em) {
+			",
+            "font-size:	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            ";
+      ",
+          ],
+          "l": 23,
+          "m": 20,
+          "make": Object {
+            "larger": 2,
+            "normal": 1,
+            "smaller": 0.85,
+            "tiny": 0.5,
+          },
+          "s": 18,
+          "xs": 17,
+        },
+      },
+      "typography": Object {
+        "text": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Lobster Two', serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+        ",
+          ],
+          "font": "'Lobster Two', serif",
+          "lineHeight": 1.75,
+        },
+        "title": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Yanone Kaffeesatz', sans-serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+          font-weight: ",
+            "400",
+            ";
+          margin: 0;
+        ",
+          ],
+          "font": "'Yanone Kaffeesatz', sans-serif",
+          "lineHeight": 1.15,
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`Render \`responsiveMobileOnly\` Button without crashing, matches snapshot 1`] = `
+.c0 {
+  box-sizing: content-box;
+  background: inherit;
+  border-width: 0;
+  color: inherit;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: inherit;
+  width: 100%;
+  outline: transparent;
+  max-width: 320px;
+  color: rgba(82,82,82,1);
+  font-family: 'Yanone Kaffeesatz',sans-serif;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+  line-height: 1.15em;
+  font-weight: 400;
+  margin: 0;
+  margin: 0 auto;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  background: rgba(255,255,255,1);
+  color: rgba(82,82,82,1) !important;
+  color: !important;
+  border-radius: 0.375em;
+  padding: 0.6em 0;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-shadow: 0 1px 1px rgba(82,82,82,0.25), 0 0 0 1px rgba(82,82,82,0.125);
+}
+
+.c0:-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.c0 svg > path {
+  stroke: rgba(82,82,82,1);
+}
+
+.c0:active {
+  background: rgba(82,82,82,1) !important;
+  box-shadow: 0 0 rgba(82,82,82,1) inset;
+  color: rgba(255,255,255,1) !important;
+}
+
+@media (min-width:32.5625em) {
+  .c0 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:32.5em) {
+  .c0 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width:20em) {
+  .c0 {
+    font-size: 17px;
+  }
+}
+
+@media (min-width:100.0625em) {
+  .c0 {
+    font-size: 23px;
+  }
+}
+
+@media (max-width:20em) {
+  .c0 {
+    width: 100vw;
+    max-width: 100vw;
+    border-radius: 0;
+  }
+
+  section .c0 {
+    margin-left: -1.5em;
+  }
+}
+
+<Component
+  className="c0"
+  responsiveMobileOnly={true}
+  theme={
+    Object {
+      "color": Object {
+        "background": [Function],
+        "brand": [Function],
+        "foreground": [Function],
+        "highlight": [Function],
+      },
+      "effects": Object {
+        "borderRadius": Object {
+          "med": 0.75,
+          "small": [Function],
+        },
+      },
+      "layer": Object {
+        "card": 30,
+        "nav": 20,
+        "overlay": 40,
+        "tuck": -1,
+        "up": 10,
+      },
+      "opacity": Object {
+        "half": 0.5,
+        "least": 0.125,
+        "most": 0.85,
+      },
+      "size": Object {
+        "block": Object {
+          "border": 4,
+          "column": Object {
+            "l": 900,
+            "m": 700,
+          },
+          "padding": 1.5,
+          "spacing": 0.75,
+        },
+        "breakpoint": Object {
+          "exact": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "max": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "min": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "stops": Object {
+            "max": 1600,
+            "min": 320,
+          },
+        },
+        "font": Object {
+          "auto": Array [
+            "
+        ",
+            "
+		@media (min-width: ",
+            "32.5625",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "32.5",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "20",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (min-width: ",
+            "100.0625",
+            "em) {
+			",
+            "font-size:	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            ";
+      ",
+          ],
+          "l": 23,
+          "m": 20,
+          "make": Object {
+            "larger": 2,
+            "normal": 1,
+            "smaller": 0.85,
+            "tiny": 0.5,
+          },
+          "s": 18,
+          "xs": 17,
+        },
+      },
+      "typography": Object {
+        "text": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Lobster Two', serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+        ",
+          ],
+          "font": "'Lobster Two', serif",
+          "lineHeight": 1.75,
+        },
+        "title": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Yanone Kaffeesatz', sans-serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+          font-weight: ",
+            "400",
+            ";
+          margin: 0;
+        ",
+          ],
+          "font": "'Yanone Kaffeesatz', sans-serif",
+          "lineHeight": 1.15,
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`Render \`responsiveMobileOnly\` LinkButton without crashing, matches snapshot 1`] = `
+.c0 {
+  max-width: 320px;
+  color: rgba(82,82,82,1);
+  font-family: 'Yanone Kaffeesatz',sans-serif;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+  line-height: 1.15em;
+  font-weight: 400;
+  margin: 0;
+  margin: 0 auto;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  background: rgba(255,255,255,1);
+  color: rgba(82,82,82,1) !important;
+  color: !important;
+  border-radius: 0.375em;
+  padding: 0.6em 0;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-shadow: 0 1px 1px rgba(82,82,82,0.25), 0 0 0 1px rgba(82,82,82,0.125);
+}
+
+.c0 svg > path {
+  stroke: rgba(82,82,82,1);
+}
+
+.c0:active {
+  background: rgba(82,82,82,1) !important;
+  box-shadow: 0 0 rgba(82,82,82,1) inset;
+  color: rgba(255,255,255,1) !important;
+}
+
+@media (min-width:32.5625em) {
+  .c0 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:32.5em) {
+  .c0 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width:20em) {
+  .c0 {
+    font-size: 17px;
+  }
+}
+
+@media (min-width:100.0625em) {
+  .c0 {
+    font-size: 23px;
+  }
+}
+
+@media (max-width:20em) {
+  .c0 {
+    width: 100vw;
+    max-width: 100vw;
+    border-radius: 0;
+  }
+
+  section .c0 {
+    margin-left: -1.5em;
+  }
+}
+
+<Component
+  className="c0"
+  responsiveMobileOnly={true}
+  theme={
+    Object {
+      "color": Object {
+        "background": [Function],
+        "brand": [Function],
+        "foreground": [Function],
+        "highlight": [Function],
+      },
+      "effects": Object {
+        "borderRadius": Object {
+          "med": 0.75,
+          "small": [Function],
+        },
+      },
+      "layer": Object {
+        "card": 30,
+        "nav": 20,
+        "overlay": 40,
+        "tuck": -1,
+        "up": 10,
+      },
+      "opacity": Object {
+        "half": 0.5,
+        "least": 0.125,
+        "most": 0.85,
+      },
+      "size": Object {
+        "block": Object {
+          "border": 4,
+          "column": Object {
+            "l": 900,
+            "m": 700,
+          },
+          "padding": 1.5,
+          "spacing": 0.75,
+        },
+        "breakpoint": Object {
+          "exact": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "max": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "min": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "stops": Object {
+            "max": 1600,
+            "min": 320,
+          },
+        },
+        "font": Object {
+          "auto": Array [
+            "
+        ",
+            "
+		@media (min-width: ",
+            "32.5625",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "32.5",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "20",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (min-width: ",
+            "100.0625",
+            "em) {
+			",
+            "font-size:	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            ";
+      ",
+          ],
+          "l": 23,
+          "m": 20,
+          "make": Object {
+            "larger": 2,
+            "normal": 1,
+            "smaller": 0.85,
+            "tiny": 0.5,
+          },
+          "s": 18,
+          "xs": 17,
+        },
+      },
+      "typography": Object {
+        "text": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Lobster Two', serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+        ",
+          ],
+          "font": "'Lobster Two', serif",
+          "lineHeight": 1.75,
+        },
+        "title": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Yanone Kaffeesatz', sans-serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+          font-weight: ",
+            "400",
+            ";
+          margin: 0;
+        ",
+          ],
+          "font": "'Yanone Kaffeesatz', sans-serif",
+          "lineHeight": 1.15,
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`Render \`responsiveMobileOnly\` TinyButtonStyles without crashing, matches snapshot 1`] = `
+.c0 {
+  padding: 0.15em 0.375em;
+  width: 8em;
+  border-radius: 0.375em;
+}
+
+<Component
+  className="c0"
+  responsiveMobileOnly={true}
+  theme={
+    Object {
+      "color": Object {
+        "background": [Function],
+        "brand": [Function],
+        "foreground": [Function],
+        "highlight": [Function],
+      },
+      "effects": Object {
+        "borderRadius": Object {
+          "med": 0.75,
+          "small": [Function],
+        },
+      },
+      "layer": Object {
+        "card": 30,
+        "nav": 20,
+        "overlay": 40,
+        "tuck": -1,
+        "up": 10,
+      },
+      "opacity": Object {
+        "half": 0.5,
+        "least": 0.125,
+        "most": 0.85,
+      },
+      "size": Object {
+        "block": Object {
+          "border": 4,
+          "column": Object {
+            "l": 900,
+            "m": 700,
+          },
+          "padding": 1.5,
+          "spacing": 0.75,
+        },
+        "breakpoint": Object {
+          "exact": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "max": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "min": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "stops": Object {
+            "max": 1600,
+            "min": 320,
+          },
+        },
+        "font": Object {
+          "auto": Array [
+            "
+        ",
+            "
+		@media (min-width: ",
+            "32.5625",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "32.5",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "20",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (min-width: ",
+            "100.0625",
+            "em) {
+			",
+            "font-size:	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            ";
+      ",
+          ],
+          "l": 23,
+          "m": 20,
+          "make": Object {
+            "larger": 2,
+            "normal": 1,
+            "smaller": 0.85,
+            "tiny": 0.5,
+          },
+          "s": 18,
+          "xs": 17,
+        },
+      },
+      "typography": Object {
+        "text": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Lobster Two', serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+        ",
+          ],
+          "font": "'Lobster Two', serif",
+          "lineHeight": 1.75,
+        },
+        "title": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Yanone Kaffeesatz', sans-serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+          font-weight: ",
+            "400",
+            ";
+          margin: 0;
+        ",
+          ],
+          "font": "'Yanone Kaffeesatz', sans-serif",
+          "lineHeight": 1.15,
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`Render Button with loader without crashing, matches snapshot 1`] = `
+.c0 {
+  box-sizing: content-box;
+  background: inherit;
+  border-width: 0;
+  color: inherit;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: inherit;
+  width: 100%;
+  outline: transparent;
+  max-width: 320px;
+  color: rgba(82,82,82,1);
+  font-family: 'Yanone Kaffeesatz',sans-serif;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+  line-height: 1.15em;
+  font-weight: 400;
+  margin: 0;
+  margin: 0 auto;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  background: rgba(255,255,255,1);
+  color: rgba(82,82,82,1) !important;
+  color: !important;
+  border-radius: 0.375em;
+  padding: 0.6em 0;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-shadow: 0 1px 1px rgba(82,82,82,0.25), 0 0 0 1px rgba(82,82,82,0.125);
+}
+
+.c0:-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.c0 svg > path {
+  stroke: rgba(82,82,82,1);
+}
+
+.c0:active {
+  background: rgba(82,82,82,1) !important;
+  box-shadow: 0 0 rgba(82,82,82,1) inset;
+  color: rgba(255,255,255,1) !important;
+}
+
+@media (min-width:32.5625em) {
+  .c0 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:32.5em) {
+  .c0 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width:20em) {
+  .c0 {
+    font-size: 17px;
+  }
+}
+
+@media (min-width:100.0625em) {
+  .c0 {
+    font-size: 23px;
+  }
+}
+
+@media (max-width:20em) {
+  .c0 {
+    width: 100vw;
+    max-width: 100vw;
+    border-radius: 0;
+  }
+
+  section .c0 {
+    margin-left: -1.5em;
+  }
+}
+
+<Component
+  className="c0"
+  loaderComponent={[Function]}
+  theme={
+    Object {
+      "color": Object {
+        "background": [Function],
+        "brand": [Function],
+        "foreground": [Function],
+        "highlight": [Function],
+      },
+      "effects": Object {
+        "borderRadius": Object {
+          "med": 0.75,
+          "small": [Function],
+        },
+      },
+      "layer": Object {
+        "card": 30,
+        "nav": 20,
+        "overlay": 40,
+        "tuck": -1,
+        "up": 10,
+      },
+      "opacity": Object {
+        "half": 0.5,
+        "least": 0.125,
+        "most": 0.85,
+      },
+      "size": Object {
+        "block": Object {
+          "border": 4,
+          "column": Object {
+            "l": 900,
+            "m": 700,
+          },
+          "padding": 1.5,
+          "spacing": 0.75,
+        },
+        "breakpoint": Object {
+          "exact": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "max": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "min": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "stops": Object {
+            "max": 1600,
+            "min": 320,
+          },
+        },
+        "font": Object {
+          "auto": Array [
+            "
+        ",
+            "
+		@media (min-width: ",
+            "32.5625",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "32.5",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "20",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (min-width: ",
+            "100.0625",
+            "em) {
+			",
+            "font-size:	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            ";
+      ",
+          ],
+          "l": 23,
+          "m": 20,
+          "make": Object {
+            "larger": 2,
+            "normal": 1,
+            "smaller": 0.85,
+            "tiny": 0.5,
+          },
+          "s": 18,
+          "xs": 17,
+        },
+      },
+      "typography": Object {
+        "text": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Lobster Two', serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+        ",
+          ],
+          "font": "'Lobster Two', serif",
+          "lineHeight": 1.75,
+        },
+        "title": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Yanone Kaffeesatz', sans-serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+          font-weight: ",
+            "400",
+            ";
+          margin: 0;
+        ",
+          ],
+          "font": "'Yanone Kaffeesatz', sans-serif",
+          "lineHeight": 1.15,
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`Render Button without crashing, matches snapshot 1`] = `
+.c0 {
+  box-sizing: content-box;
+  background: inherit;
+  border-width: 0;
+  color: inherit;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin: inherit;
+  width: 100%;
+  outline: transparent;
+  max-width: 320px;
+  color: rgba(82,82,82,1);
+  font-family: 'Yanone Kaffeesatz',sans-serif;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+  line-height: 1.15em;
+  font-weight: 400;
+  margin: 0;
+  margin: 0 auto;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  background: rgba(255,255,255,1);
+  color: rgba(82,82,82,1) !important;
+  color: !important;
+  border-radius: 0.375em;
+  padding: 0.6em 0;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-shadow: 0 1px 1px rgba(82,82,82,0.25), 0 0 0 1px rgba(82,82,82,0.125);
+}
+
+.c0:-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.c0 svg > path {
+  stroke: rgba(82,82,82,1);
+}
+
+.c0:active {
+  background: rgba(82,82,82,1) !important;
+  box-shadow: 0 0 rgba(82,82,82,1) inset;
+  color: rgba(255,255,255,1) !important;
+}
+
+@media (min-width:32.5625em) {
+  .c0 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:32.5em) {
+  .c0 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width:20em) {
+  .c0 {
+    font-size: 17px;
+  }
+}
+
+@media (min-width:100.0625em) {
+  .c0 {
+    font-size: 23px;
+  }
+}
+
+@media (max-width:20em) {
+  .c0 {
+    width: 100vw;
+    max-width: 100vw;
+    border-radius: 0;
+  }
+
+  section .c0 {
+    margin-left: -1.5em;
+  }
+}
+
+<Component
+  className="c0"
+  theme={
+    Object {
+      "color": Object {
+        "background": [Function],
+        "brand": [Function],
+        "foreground": [Function],
+        "highlight": [Function],
+      },
+      "effects": Object {
+        "borderRadius": Object {
+          "med": 0.75,
+          "small": [Function],
+        },
+      },
+      "layer": Object {
+        "card": 30,
+        "nav": 20,
+        "overlay": 40,
+        "tuck": -1,
+        "up": 10,
+      },
+      "opacity": Object {
+        "half": 0.5,
+        "least": 0.125,
+        "most": 0.85,
+      },
+      "size": Object {
+        "block": Object {
+          "border": 4,
+          "column": Object {
+            "l": 900,
+            "m": 700,
+          },
+          "padding": 1.5,
+          "spacing": 0.75,
+        },
+        "breakpoint": Object {
+          "exact": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "max": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "min": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "stops": Object {
+            "max": 1600,
+            "min": 320,
+          },
+        },
+        "font": Object {
+          "auto": Array [
+            "
+        ",
+            "
+		@media (min-width: ",
+            "32.5625",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "32.5",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "20",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (min-width: ",
+            "100.0625",
+            "em) {
+			",
+            "font-size:	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            ";
+      ",
+          ],
+          "l": 23,
+          "m": 20,
+          "make": Object {
+            "larger": 2,
+            "normal": 1,
+            "smaller": 0.85,
+            "tiny": 0.5,
+          },
+          "s": 18,
+          "xs": 17,
+        },
+      },
+      "typography": Object {
+        "text": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Lobster Two', serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+        ",
+          ],
+          "font": "'Lobster Two', serif",
+          "lineHeight": 1.75,
+        },
+        "title": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Yanone Kaffeesatz', sans-serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+          font-weight: ",
+            "400",
+            ";
+          margin: 0;
+        ",
+          ],
+          "font": "'Yanone Kaffeesatz', sans-serif",
+          "lineHeight": 1.15,
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`Render ButtonStrip without crashing, matches snapshot 1`] = `
+.c0 {
+  width: 10em;
+}
+
+.c0 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Render Item without crashing, matches snapshot 1`] = `
+.c0 {
+  margin: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+<Component
+  className="c0"
+  theme={
+    Object {
+      "color": Object {
+        "background": [Function],
+        "brand": [Function],
+        "foreground": [Function],
+        "highlight": [Function],
+      },
+      "effects": Object {
+        "borderRadius": Object {
+          "med": 0.75,
+          "small": [Function],
+        },
+      },
+      "layer": Object {
+        "card": 30,
+        "nav": 20,
+        "overlay": 40,
+        "tuck": -1,
+        "up": 10,
+      },
+      "opacity": Object {
+        "half": 0.5,
+        "least": 0.125,
+        "most": 0.85,
+      },
+      "size": Object {
+        "block": Object {
+          "border": 4,
+          "column": Object {
+            "l": 900,
+            "m": 700,
+          },
+          "padding": 1.5,
+          "spacing": 0.75,
+        },
+        "breakpoint": Object {
+          "exact": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "max": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "min": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "stops": Object {
+            "max": 1600,
+            "min": 320,
+          },
+        },
+        "font": Object {
+          "auto": Array [
+            "
+        ",
+            "
+		@media (min-width: ",
+            "32.5625",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "32.5",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "20",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (min-width: ",
+            "100.0625",
+            "em) {
+			",
+            "font-size:	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            ";
+      ",
+          ],
+          "l": 23,
+          "m": 20,
+          "make": Object {
+            "larger": 2,
+            "normal": 1,
+            "smaller": 0.85,
+            "tiny": 0.5,
+          },
+          "s": 18,
+          "xs": 17,
+        },
+      },
+      "typography": Object {
+        "text": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Lobster Two', serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+        ",
+          ],
+          "font": "'Lobster Two', serif",
+          "lineHeight": 1.75,
+        },
+        "title": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Yanone Kaffeesatz', sans-serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+          font-weight: ",
+            "400",
+            ";
+          margin: 0;
+        ",
+          ],
+          "font": "'Yanone Kaffeesatz', sans-serif",
+          "lineHeight": 1.15,
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`Render LinkButton without crashing, matches snapshot 1`] = `
+.c0 {
+  max-width: 320px;
+  color: rgba(82,82,82,1);
+  font-family: 'Yanone Kaffeesatz',sans-serif;
+  -webkit-letter-spacing: 0.025em;
+  -moz-letter-spacing: 0.025em;
+  -ms-letter-spacing: 0.025em;
+  letter-spacing: 0.025em;
+  line-height: 1.15em;
+  font-weight: 400;
+  margin: 0;
+  margin: 0 auto;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  background: rgba(255,255,255,1);
+  color: rgba(82,82,82,1) !important;
+  color: !important;
+  border-radius: 0.375em;
+  padding: 0.6em 0;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-shadow: 0 1px 1px rgba(82,82,82,0.25), 0 0 0 1px rgba(82,82,82,0.125);
+}
+
+.c0 svg > path {
+  stroke: rgba(82,82,82,1);
+}
+
+.c0:active {
+  background: rgba(82,82,82,1) !important;
+  box-shadow: 0 0 rgba(82,82,82,1) inset;
+  color: rgba(255,255,255,1) !important;
+}
+
+@media (min-width:32.5625em) {
+  .c0 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:32.5em) {
+  .c0 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width:20em) {
+  .c0 {
+    font-size: 17px;
+  }
+}
+
+@media (min-width:100.0625em) {
+  .c0 {
+    font-size: 23px;
+  }
+}
+
+@media (max-width:20em) {
+  .c0 {
+    width: 100vw;
+    max-width: 100vw;
+    border-radius: 0;
+  }
+
+  section .c0 {
+    margin-left: -1.5em;
+  }
+}
+
+<Component
+  className="c0"
+  theme={
+    Object {
+      "color": Object {
+        "background": [Function],
+        "brand": [Function],
+        "foreground": [Function],
+        "highlight": [Function],
+      },
+      "effects": Object {
+        "borderRadius": Object {
+          "med": 0.75,
+          "small": [Function],
+        },
+      },
+      "layer": Object {
+        "card": 30,
+        "nav": 20,
+        "overlay": 40,
+        "tuck": -1,
+        "up": 10,
+      },
+      "opacity": Object {
+        "half": 0.5,
+        "least": 0.125,
+        "most": 0.85,
+      },
+      "size": Object {
+        "block": Object {
+          "border": 4,
+          "column": Object {
+            "l": 900,
+            "m": 700,
+          },
+          "padding": 1.5,
+          "spacing": 0.75,
+        },
+        "breakpoint": Object {
+          "exact": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "max": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "min": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "stops": Object {
+            "max": 1600,
+            "min": 320,
+          },
+        },
+        "font": Object {
+          "auto": Array [
+            "
+        ",
+            "
+		@media (min-width: ",
+            "32.5625",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "32.5",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "20",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (min-width: ",
+            "100.0625",
+            "em) {
+			",
+            "font-size:	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            ";
+      ",
+          ],
+          "l": 23,
+          "m": 20,
+          "make": Object {
+            "larger": 2,
+            "normal": 1,
+            "smaller": 0.85,
+            "tiny": 0.5,
+          },
+          "s": 18,
+          "xs": 17,
+        },
+      },
+      "typography": Object {
+        "text": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Lobster Two', serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+        ",
+          ],
+          "font": "'Lobster Two', serif",
+          "lineHeight": 1.75,
+        },
+        "title": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Yanone Kaffeesatz', sans-serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+          font-weight: ",
+            "400",
+            ";
+          margin: 0;
+        ",
+          ],
+          "font": "'Yanone Kaffeesatz', sans-serif",
+          "lineHeight": 1.15,
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`Render TinyButton without crashing, matches snapshot 1`] = `
+<Styled(Component)
+  theme={
+    Object {
+      "color": Object {
+        "background": [Function],
+        "brand": [Function],
+        "foreground": [Function],
+        "highlight": [Function],
+      },
+      "effects": Object {
+        "borderRadius": Object {
+          "med": 0.75,
+          "small": [Function],
+        },
+      },
+      "layer": Object {
+        "card": 30,
+        "nav": 20,
+        "overlay": 40,
+        "tuck": -1,
+        "up": 10,
+      },
+      "opacity": Object {
+        "half": 0.5,
+        "least": 0.125,
+        "most": 0.85,
+      },
+      "size": Object {
+        "block": Object {
+          "border": 4,
+          "column": Object {
+            "l": 900,
+            "m": 700,
+          },
+          "padding": 1.5,
+          "spacing": 0.75,
+        },
+        "breakpoint": Object {
+          "exact": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "max": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "min": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "stops": Object {
+            "max": 1600,
+            "min": 320,
+          },
+        },
+        "font": Object {
+          "auto": Array [
+            "
+        ",
+            "
+		@media (min-width: ",
+            "32.5625",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "32.5",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "20",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (min-width: ",
+            "100.0625",
+            "em) {
+			",
+            "font-size:	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            ";
+      ",
+          ],
+          "l": 23,
+          "m": 20,
+          "make": Object {
+            "larger": 2,
+            "normal": 1,
+            "smaller": 0.85,
+            "tiny": 0.5,
+          },
+          "s": 18,
+          "xs": 17,
+        },
+      },
+      "typography": Object {
+        "text": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Lobster Two', serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+        ",
+          ],
+          "font": "'Lobster Two', serif",
+          "lineHeight": 1.75,
+        },
+        "title": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Yanone Kaffeesatz', sans-serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+          font-weight: ",
+            "400",
+            ";
+          margin: 0;
+        ",
+          ],
+          "font": "'Yanone Kaffeesatz', sans-serif",
+          "lineHeight": 1.15,
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`Render TinyButtonStyles without crashing, matches snapshot 1`] = `
+.c0 {
+  padding: 0.15em 0.375em;
+  width: 8em;
+  border-radius: 0.375em;
+}
+
+<Component
+  className="c0"
+  theme={
+    Object {
+      "color": Object {
+        "background": [Function],
+        "brand": [Function],
+        "foreground": [Function],
+        "highlight": [Function],
+      },
+      "effects": Object {
+        "borderRadius": Object {
+          "med": 0.75,
+          "small": [Function],
+        },
+      },
+      "layer": Object {
+        "card": 30,
+        "nav": 20,
+        "overlay": 40,
+        "tuck": -1,
+        "up": 10,
+      },
+      "opacity": Object {
+        "half": 0.5,
+        "least": 0.125,
+        "most": 0.85,
+      },
+      "size": Object {
+        "block": Object {
+          "border": 4,
+          "column": Object {
+            "l": 900,
+            "m": 700,
+          },
+          "padding": 1.5,
+          "spacing": 0.75,
+        },
+        "breakpoint": Object {
+          "exact": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "max": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "min": Object {
+            "l": [Function],
+            "m": [Function],
+            "s": [Function],
+            "xl": [Function],
+            "xs": [Function],
+            "xxl": [Function],
+          },
+          "stops": Object {
+            "max": 1600,
+            "min": 320,
+          },
+        },
+        "font": Object {
+          "auto": Array [
+            "
+        ",
+            "
+		@media (min-width: ",
+            "32.5625",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "32.5",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (max-width: ",
+            "20",
+            "em) {
+			",
+            "font-size: 	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            " ",
+            "
+		@media (min-width: ",
+            "100.0625",
+            "em) {
+			",
+            "font-size:	",
+            [Function],
+            "px;",
+            "
+		}
+	",
+            ";
+      ",
+          ],
+          "l": 23,
+          "m": 20,
+          "make": Object {
+            "larger": 2,
+            "normal": 1,
+            "smaller": 0.85,
+            "tiny": 0.5,
+          },
+          "s": 18,
+          "xs": 17,
+        },
+      },
+      "typography": Object {
+        "text": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Lobster Two', serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+        ",
+          ],
+          "font": "'Lobster Two', serif",
+          "lineHeight": 1.75,
+        },
+        "title": Object {
+          "auto": Array [
+            "
+          color: ",
+            [Function],
+            ";
+          font-family: ",
+            "'Yanone Kaffeesatz', sans-serif",
+            ";
+          letter-spacing: 0.025em;
+          line-height: ",
+            [Function],
+            "em;
+          font-weight: ",
+            "400",
+            ";
+          margin: 0;
+        ",
+          ],
+          "font": "'Yanone Kaffeesatz', sans-serif",
+          "lineHeight": 1.15,
+        },
+      },
+    }
+  }
+/>
+`;

@@ -1,14 +1,6 @@
-//
-// tools
 import React from "react"
-//
-// styles
 import styled, { css } from "styled-components"
-//
-// NOTE: Button is much heavier than ButtonLink
-// since it includes a loader SVG animation.
-//
-/**************************** MAIN BUTTON STYLES ******************************/
+
 export const ButtonStyles = css`
   max-width: ${props => props.theme.size.breakpoint.stops.min}px;
 
@@ -59,8 +51,7 @@ export const ButtonStyles = css`
     }
   `};
 `
-//
-// below line filter out prop "branded" that isn't recognized by Link component
+
 export const LinkButton = styled(
   ({ branded, inverse, responsiveMobileOnly, ...props }) => {
     const Link = props.linkComponent
@@ -70,8 +61,7 @@ export const LinkButton = styled(
 )`
   ${ButtonStyles};
 `
-//
-// export non-a/link version of the button
+
 export const Button = styled(
   ({ branded, inverse, responsiveMobileOnly, ...props }) => {
     const Loader = props.loaderComponent || null
@@ -103,8 +93,7 @@ export const Button = styled(
   }
   ${ButtonStyles};
 `
-//
-/**************************** TINY BUTTON STYLES ******************************/
+
 export const TinyButtonStyles = styled(
   ({ responsiveMobileOnly, followComposerCursor, ...props }) =>
     <LinkButton {...props} />
@@ -117,16 +106,17 @@ export const TinyButtonStyles = styled(
   ${props =>
     props.followComposerCursor &&
     `
-  margin-top: 2px;
-  position: absolute;
-  z-index: ${props.theme.layer.up - 1};
-  right: -${props.theme.size.block.padding}em;
-  ${props.theme.size.breakpoint.max.m`
-		right: 0;
-	`} ${props.theme.size.breakpoint.max.s`
-		right: -${props.theme.size.block.spacing}em;
-	`};
-  `};
+      margin-top: 2px;
+      position: absolute;
+      z-index: ${props.theme.layer.up - 1};
+      right: -${props.theme.size.block.padding}em;
+      ${props.theme.size.breakpoint.max.m`
+    		right: 0;
+    	`}
+      ${props.theme.size.breakpoint.max.s`
+    		right: -${props.theme.size.block.spacing}em;
+    	`}
+  `}
 `
 export const TinyButton = props => {
   return (
@@ -135,8 +125,7 @@ export const TinyButton = props => {
     </TinyButtonStyles>
   )
 }
-//
-/**************************** BUTTON STRIP STYLES *****************************/
+
 export const ButtonStrip = styled.div`
   & > div {
     display: flex;
@@ -144,11 +133,11 @@ export const ButtonStrip = styled.div`
   }
   width: 10em;
 `
-//
+
 const tinyButtonBorderRadious = css`
   ${props => props.theme.effects.borderRadius.small};
 `
-//
+
 export const Item = styled(({ left, right, script, ...props }) =>
   <TinyButton {...props} />
 )`

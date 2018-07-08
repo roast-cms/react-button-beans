@@ -1,7 +1,5 @@
-// tools
 import React from "react"
 
-// styles
 import styled from "styled-components"
 const LoaderContainer = styled.div`
   display: inline-block;
@@ -11,7 +9,6 @@ const LoaderContainer = styled.div`
   margin: -0.1em 0 0em -${props => props.theme.size.block.spacing / 2}em;
 `
 
-// return
 export const Loader = props => {
   return (
     <LoaderContainer {...props}>

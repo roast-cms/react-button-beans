@@ -106,16 +106,17 @@ export const TinyButtonStyles = styled(
   ${props =>
     props.followComposerCursor &&
     `
-  margin-top: 2px;
-  position: absolute;
-  z-index: ${props.theme.layer.up - 1};
-  right: -${props.theme.size.block.padding}em;
-  ${props.theme.size.breakpoint.max.m`
-		right: 0;
-	`} ${props.theme.size.breakpoint.max.s`
-		right: -${props.theme.size.block.spacing}em;
-	`};
-  `};
+      margin-top: 2px;
+      position: absolute;
+      z-index: ${props.theme.layer.up - 1};
+      right: -${props.theme.size.block.padding}em;
+      ${props.theme.size.breakpoint.max.m`
+    		right: 0;
+    	`}
+      ${props.theme.size.breakpoint.max.s`
+    		right: -${props.theme.size.block.spacing}em;
+    	`}
+  `}
 `
 export const TinyButton = props => {
   return (
